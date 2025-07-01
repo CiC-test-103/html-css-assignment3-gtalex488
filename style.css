@@ -14,6 +14,8 @@
   margin: 0;
 }
 body {
+  background-color: var(--clr-stone100);
+  
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
@@ -47,6 +49,158 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+
+.recipe {         /* WHITE AREA */
+  display: block;
+  background-color: white;
+  width: 735px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 125px;
+  border-radius: 26px;
+  padding: 40px;
+}
+
+.image-omelette {   /* OMELETTE IMAGE */
+  width: 650px;
+  border-radius: 12px;
+  margin: 0 auto 30px;
+}
+
+.main-recipe {
+  width: 650px;
+  margin: 0 auto;
+}  
+
+.title {
+  font-family: var(--fs-accent), sans-serif;
+  color: var(--clr-stone900);
+  font-weight: var (--fw-regular);
+  font-size: 40px;
+  text-align: left;
+}
+
+.intro {
+  font-family: var(--fs-base); 
+  font-display: swap; 
+  font-size: 16px; 
+  margin-top: 15px;
+  margin-bottom: 30px;
+}  
+
+.preparation {
+  background-color: var(--clr-rose50);
+  height: 180px;
+  font-family: 'Outfit'; 
+  font-display: swap; 
+  padding: 20px 28px;
+  border-radius: 15px;
+}  
+
+.preptime {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--clr-rose800);
+}
+
+.prep-list {
+  padding-left: 20px;
+}
+
+li::marker {
+  font-size: 0.80em;  
+}
+
+.prep-list li {
+  margin-top: 10px;
+  padding-left: 15px; 
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  display: block;
+  font-family: 'Young-Serif', sans-serif;
+  font-size: 28px;
+  color: var(--clr-rose800);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.ingrd-list {
+  padding-left: 20px;
+}  
+
+.ingrd-list li {
+  font-family: 'Outfit'; 
+  font-display: swap; 
+  font-size: 16px; 
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  display: block;
+  font-family: 'Young-Serif', sans-serif;
+  font-size: 28px;
+  color: var(--clr-rose800);
+  padding: 20px 0px;
+}
+
+.instrc-list {
+  font-family: 'Outfit'; 
+  font-display: swap; 
+  font-size: 16px; 
+  padding-left: 20px;
+}
+
+.instrc-list li {
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+ol li::marker {
+  font-size: 15px;;
+  font-weight:bold;
+  color: var(--clr-rose800);
+}  
+
+.nutrition-head {
+  display: block;
+  font-family: 'Young-Serif', sans-serif;
+  font-size: 28px;
+  color: var(--clr-rose800);
+  padding: 20px 0px;
+}
+
+.table {
+  font-family: 'Outfit'; 
+    font-display: swap; 
+    font-size: 16px; 
+}
+
+.table-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Outfit'; 
+  font-display: swap;
+  font-size: 16px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.table-value {
+  color: var(--clr-rose800);
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.hr-line {
+  border: none; 
+  height: 1px; 
+  background-color: 
+  var(--clr-stone100); 
+  margin: 10px 0; 
+}
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }
