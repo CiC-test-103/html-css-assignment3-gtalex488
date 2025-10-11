@@ -159,7 +159,7 @@ ol li::marker {
   color: var(--clr-rose800);
 }  
 
-.hr-line {
+.hr-line { 
   border: none; 
   height: 1px; 
   background-color: var(--clr-stone100); git add
