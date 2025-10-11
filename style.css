@@ -50,8 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Your CSS Below **/
 
-.recipe {         /* WHITE AREA */
-  display: block;
+.recipe {          
   background-color: white;
   width: 735px;
   margin: 0 auto;
@@ -75,14 +74,13 @@ h1, h2, h3, h4, h5, h6 {
 .title {
   font-family: var(--fs-accent), sans-serif;
   color: var(--clr-stone900);
-  font-weight: var (--fw-regular);
+  font-weight: var(--fw-regular);
   font-size: 40px;
   text-align: left;
 }
 
 .intro {
   font-family: var(--fs-base); 
-  font-display: swap; 
   font-size: 16px; 
   margin-top: 15px;
   margin-bottom: 30px;
@@ -92,7 +90,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--clr-rose50);
   height: 180px;
   font-family: 'Outfit'; 
-  font-display: swap; 
   padding: 20px 28px;
   border-radius: 15px;
 }  
@@ -132,7 +129,6 @@ li::marker {
 
 .ingrd-list li {
   font-family: 'Outfit'; 
-  font-display: swap; 
   font-size: 16px; 
   padding-left: 25px;
   margin-bottom: 10px;
@@ -148,7 +144,6 @@ li::marker {
 
 .instrc-list {
   font-family: 'Outfit'; 
-  font-display: swap; 
   font-size: 16px; 
   padding-left: 20px;
 }
@@ -159,10 +154,23 @@ li::marker {
 }
 
 ol li::marker {
-  font-size: 15px;;
+  font-size: 15px;
   font-weight:bold;
   color: var(--clr-rose800);
 }  
+
+.hr-line {
+  border: none; 
+  height: 1px; 
+  background-color: var(--clr-stone100); 
+}
+
+.hr-line2 {
+  border: none; 
+  height: 1px; 
+  background-color: var(--clr-stone100); 
+  margin: 10px 0; 
+}
 
 .nutrition-head {
   display: block;
@@ -174,15 +182,13 @@ ol li::marker {
 
 .table {
   font-family: 'Outfit'; 
-    font-display: swap; 
-    font-size: 16px; 
+  font-size: 16px; 
 }
 
 .table-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: 'Outfit'; 
-  font-display: swap;
   font-size: 16px;
   margin-top: 30px;
   padding-left: 30px;
@@ -192,14 +198,6 @@ ol li::marker {
   color: var(--clr-rose800);
   font-size: 16px;
   font-weight:bold;
-}
-
-.hr-line {
-  border: none; 
-  height: 1px; 
-  background-color: 
-  var(--clr-stone100); 
-  margin: 10px 0; 
 }
 
 /** Attribution CSS **/
