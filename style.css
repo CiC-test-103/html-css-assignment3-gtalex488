@@ -162,7 +162,7 @@ ol li::marker {
 .hr-line { 
   border: none; 
   height: 1px; 
-  background-color: var(--clr-stone100); git add
+  background-color: var(--clr-stone100);
 }
 
 .hr-line2 {

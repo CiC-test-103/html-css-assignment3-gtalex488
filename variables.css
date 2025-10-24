@@ -5,7 +5,7 @@
   CSS file you import this into (typically style.css). For example, var(--clr-rose50) is using hsl(330, 100%, 98%)
 **/
 
-/** Fonts Imports **/   cleart
+/** Fonts Imports **/   
 @font-face {
   font-family: 'Outfit';
   font-display: swap;
